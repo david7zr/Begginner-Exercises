@@ -44,3 +44,15 @@ print("Sum:", int(input("Num1: ")) + int(input("Num2: ")))
 print("Largest:",max(int(input("Num1: ")),int(input("Num2: ")),int(input("Num3: "))))
 """""
 #-------------------------------------------------------------------------------
+"""Python reverse a string
+
+a = str(input("Enter a string: "))
+"(A[START:STOP:STEP])"
+print(a[::-1])
+"""""
+#-------------------------------------------------------------------------------
+"""Python Count vowels in a string
+"""""
+
+
+#-------------------------------------------------------------------------------
