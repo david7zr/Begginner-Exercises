@@ -1,0 +1,46 @@
+""""Hacker Rank Projects """""
+#-------------------------------------------------------------------------------
+"""Python Print Function
+
+number = int(input(""))
+for i in range(1, number + 1):
+    print(i, end="")
+"""""
+#-------------------------------------------------------------------------------
+"""Python Filtered, list, map function
+
+n = int(input())  # Read the number of scores
+arr = list(map(int, input().split()))  # Read and store the scores as a list
+max_score = max(arr)  # Find the highest score
+# Create a new list excluding all occurrences of the highest score
+filtered_scores = [score for score in arr if score != max_score]
+runner_up = max(filtered_scores)  # Find the highest score in the filtered list
+print(runner_up)  # Print the runner-up score
+"""""
+#-------------------------------------------------------------------------------
+"""Python Check if a number is even or odd
+z = int(input("insert num: "))
+
+if z % 2 == 0:
+    print("is even")
+else:
+    print("is odd")
+"""""
+#-------------------------------------------------------------------------------
+"""Python Convert celsius to fahrenheit
+
+c=float(input("Celsius: "))
+f = (c* 9/5)+32
+print("Fahrenheit: ", f)
+"""""
+#-------------------------------------------------------------------------------
+"""Python Calculate the sum of two numbers entered by the user
+
+print("Sum:", int(input("Num1: ")) + int(input("Num2: ")))
+"""""
+#-------------------------------------------------------------------------------
+"""Python find the largest number of three numbers
+
+print("Largest:",max(int(input("Num1: ")),int(input("Num2: ")),int(input("Num3: "))))
+"""""
+#-------------------------------------------------------------------------------
