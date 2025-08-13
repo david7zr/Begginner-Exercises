@@ -89,3 +89,20 @@ for count in range(1, n + 1):
     print(fact)
 """""
 #-------------------------------------------------------------------------------
+"""Python Generate a multiplication table
+
+I started to use Pythonic Style and start using functions
+for having a better looking code and professional
+
+def multiplication_table(number: int) -> None:
+    for multiplier in range(1, number + 1):
+        print(f"{multiplier} * {number} = {multiplier * number}")
+
+if __name__ == "__main__":
+    try:
+        user_input = int(input("Number: "))
+        multiplication_table(user_input)
+    except ValueError:
+        print("Please enter a valid integer.")
+"""""
+#-------------------------------------------------------------------------------
