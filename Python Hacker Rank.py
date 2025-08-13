@@ -1,4 +1,5 @@
 """"Hacker Rank Projects """""
+import math
 
 #-------------------------------------------------------------------------------
 """Python Print Function
@@ -75,5 +76,16 @@ if sorted_list_a == sorted_list_b:
     print("Anagrams")
 else:
     print("Not Anagrams")
+"""""
+#-------------------------------------------------------------------------------
+"""Python Factorial calculator
+
+import math
+
+n = int(input("Enter a number: "))
+
+for count in range(1, n + 1):
+    fact = math.factorial(count)
+    print(fact)
 """""
 #-------------------------------------------------------------------------------
