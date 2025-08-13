@@ -1,4 +1,6 @@
 """"Hacker Rank Projects """""
+from itertools import count
+
 #-------------------------------------------------------------------------------
 """Python Print Function
 
@@ -52,7 +54,27 @@ print(a[::-1])
 """""
 #-------------------------------------------------------------------------------
 """Python Count vowels in a string
+
+a = str.lower(input("Enter a string: "))
+vowels = "aeiou"
+totalcount = 0
+
+for v in vowels:
+    totalcount += a.count(v)
+print(totalcount)
 """""
+#-------------------------------------------------------------------------------
+"""Python Check for Anagrams
 
+list_a = str.lower(input("Enter a string1: "))
+list_b = str.lower(input("Enter a string2: "))
 
+sorted_list_a = sorted(list_a)
+sorted_list_b = sorted(list_b)
+
+if sorted_list_a == sorted_list_b:
+    print("Anagrams")
+else:
+    print("Not Anagrams")
+"""""
 #-------------------------------------------------------------------------------
