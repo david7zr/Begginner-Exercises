@@ -1,5 +1,4 @@
 """"Hacker Rank Projects """""
-from itertools import count
 
 #-------------------------------------------------------------------------------
 """Python Print Function
