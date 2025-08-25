@@ -1,5 +1,6 @@
 """"Hacker Rank Projects """""
 import math
+from selectors import SelectSelector
 
 #-------------------------------------------------------------------------------
 """Python Print Function
@@ -123,5 +124,34 @@ if missing:
     print("Missing numbers are:", missing)
 else:
     print("No numbers are missing")
+"""""
+#-------------------------------------------------------------------------------
+"""Python find the largest number in a list.
+
+numbers = list(map(int, input("Enter list of numbers: ").split()))
+
+print(max(numbers))
+"""""
+#-------------------------------------------------------------------------------
+"""Python Fibonacci Sequence Generator
+Generate the first n numbers of the Fibonacci sequence.
+
+def fibonacci(n: int) -> None:
+    a, b = 0, 1
+    for _ in range(n):
+        print(a, end=", ")
+        a, b = b, a + b
+
+while True:
+    try:
+        n = int(input("Enter how many terms: "))
+        if n <= 0:
+            print("Please enter a number higher than 0.")
+            continue  # ask again
+        break  # valid number, exit loop
+    except ValueError:
+        print("Invalid input! Please enter a valid integer.")
+
+fibonacci(n)
 """""
 #-------------------------------------------------------------------------------
