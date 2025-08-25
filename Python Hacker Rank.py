@@ -91,7 +91,7 @@ for count in range(1, n + 1):
 #-------------------------------------------------------------------------------
 """Python Generate a multiplication table
 
-I started to use Pythonic Style and start using functions
+I started to try to use Pythonic Style and start using functions
 for having a better looking code and professional
 
 def multiplication_table(number: int) -> None:
@@ -104,5 +104,24 @@ if __name__ == "__main__":
         multiplication_table(user_input)
     except ValueError:
         print("Please enter a valid integer.")
+"""""
+#-------------------------------------------------------------------------------
+"""Python Find the Missing Number in a sequence
+
+numbers = list(map(int, input("Enter list of numbers: ").split()))
+numbers.sort()
+
+missing = []
+
+for i in range(len(numbers) - 1):
+    current = numbers[i]
+    next_num = numbers[i + 1]
+    if next_num - current > 1:
+        # Add all numbers in the gap
+        missing.extend(range(current + 1, next_num))
+if missing:
+    print("Missing numbers are:", missing)
+else:
+    print("No numbers are missing")
 """""
 #-------------------------------------------------------------------------------
