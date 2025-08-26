@@ -20,9 +20,9 @@ Exercises Included
 6. Largest of Three Numbers – Find the largest number among three inputs.
 7. Reverse a String – Reverse a user-provided string.
 8. Count Vowels – Count the number of vowels in a string.
-Anagram Checker – Check if two strings are anagrams.
-Factorial Calculator – Calculate the factorial of a number.
-Multiplication Table – Print the multiplication table for a number.
-Find Missing Numbers – Identify missing numbers in a sequence.
-Find Maximum in a List – Find the largest number in a list.
-Fibonacci Sequence Generator – Generate the first n Fibonacci numbers.
+9. Anagram Checker – Check if two strings are anagrams.
+10. Factorial Calculator – Calculate the factorial of a number.
+11. Multiplication Table – Print the multiplication table for a number.
+12. Find Missing Numbers – Identify missing numbers in a sequence.
+13. Find Maximum in a List – Find the largest number in a list.
+14. Fibonacci Sequence Generator – Generate the first n Fibonacci numbers.
