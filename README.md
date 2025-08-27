@@ -26,3 +26,7 @@ Exercises Included
 12. Find Missing Numbers – Identify missing numbers in a sequence.
 13. Find Maximum in a List – Find the largest number in a list.
 14. Fibonacci Sequence Generator – Generate the first n Fibonacci numbers.
+
+Contributing
+
+Feel free to fork the repository and submit pull requests. Suggestions for improvements, new exercises, or optimizations are welcome.
